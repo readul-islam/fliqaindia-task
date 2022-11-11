@@ -25,10 +25,10 @@ const Header = () => {
         </div>
       </div>
 
-   <div className="card-section ">
-   <HeaderCard/>
-   </div>
-   <div class=" h-[2px] w-[80vw] mx-auto bg-gray-400 my-10"></div>
+      <div className="card-section ">
+        <HeaderCard />
+      </div>
+      <div class=" h-[2px] w-[80vw] mx-auto bg-gray-400 my-10"></div>
     </section>
   );
 };
