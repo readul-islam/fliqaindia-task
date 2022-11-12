@@ -156,3 +156,65 @@ export const rating = [
   },
   { id: 1, img: "https://i.ibb.co/VvvL4Yn/image-154.png" },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    avatar: "https://i.ibb.co/5cQpntz/Ellipse-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet",
+    name: "Mark Jugarburk",
+  },
+  {
+    id: 2,
+    avatar: "https://i.ibb.co/5cQpntz/Ellipse-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet",
+    name: "Mark Jugarburk",
+  },
+  {
+    id: 3,
+    avatar: "https://i.ibb.co/5cQpntz/Ellipse-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet",
+    name: "Mark Jugarburk",
+  },
+  {
+    id: 4,
+    avatar: "https://i.ibb.co/5cQpntz/Ellipse-1.png",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet",
+    name: "Mark Jugarburk",
+  },
+];
+
+
+
+
+export const weddingCard = [
+
+  {
+    id: 1,
+    title: "Danielle & Ronnie",
+    des: "38 photos. Kittery,Polland",
+    img: "https://i.ibb.co/Fn2Vb0q/image-59.png",
+  },
+  {
+    id: 2,
+    title: "Danielle & Ronnie",
+    des: "38 photos. Kittery,Polland",
+    img: "https://i.ibb.co/JrRXkvf/image-59-1.png",
+  },
+  {
+    id: 3,
+    title: "Danielle & Ronnie",
+    des: "38 photos. Kittery,Polland",
+    img: "https://i.ibb.co/qntBX63/image-59-2.png",
+  },
+  {
+    id: 4,
+    title: "Danielle & Ronnie",
+    des: "38 photos. Kittery,Polland",
+    img: "https://i.ibb.co/qntBX63/image-59-2.png",
+  },
+];

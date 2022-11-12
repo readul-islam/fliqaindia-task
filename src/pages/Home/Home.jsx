@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "../../Common/Navbar";
 import Header from "../../components/Header";
-import Offers from "../../components/Offers/Offers";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 const Home = () => {
   return (
@@ -19,7 +19,8 @@ const Home = () => {
     <PhotoGraphyBanner/> */}
       {/* <AwardsSection /> */}
       {/* <Footer/> */}
-      <Offers/>
+      {/* <Offers/> */}
+      <Testimonials/>
 
     </>
   );
