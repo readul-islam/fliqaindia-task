@@ -121,3 +121,19 @@ export const associate = [
     img: "https://i.ibb.co/nnWsQ2r/Wedding-Trailer-1.png",
   },
 ];
+
+
+
+
+
+
+export const success = [
+  {id: 5, img:'https://i.ibb.co/cX8BfdK/image-removebg-preview-2022-07-23-T230415-1.png'},
+  {id: 4, img:'https://i.ibb.co/FJXc84R/image-removebg-preview-2022-07-23-T230432.png'},
+  {id: 3, img:'https://i.ibb.co/yXFFcHR/image-removebg-preview-2022-07-23-T230437.png'},
+  {id: 2, img:'https://i.ibb.co/LN0xYRP/image-184.png'},
+  {id: 1, img:'https://i.ibb.co/nrWx2bV/image-removebg-preview-2022-07-23-T230425.png'},
+
+  
+  
+]

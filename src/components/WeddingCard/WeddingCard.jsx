@@ -32,11 +32,11 @@ const WeddingCard = () => {
     },
   ];
   return (
-    <div className="md:grid md:grid-cols-2 w-full xl:grid-cols-4 md:place-items-center  gap-6 px-2 py-8">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 w-full my-8 gap-10 md:gap-8 lg:place-items-center px-4">
       {data.map((d) => (
-        <>
+        <div  className="flex flex-col justify-center items-center">
           <div
-            className="card mb-6 md:mb-0  card-compac   t overflow-hidden
+            className="card mb-6 md:mb-0  card-compact   t overflow-hidden
            w-[300px] bg-base-100 shadow-xl"
           >
             <figure>
@@ -64,7 +64,7 @@ const WeddingCard = () => {
               <p>{d.des}</p>
             </div>
           </div>
-        </>
+        </div>
       ))}
     </div>
   );
