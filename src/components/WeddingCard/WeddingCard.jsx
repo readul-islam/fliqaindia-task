@@ -1,11 +1,15 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { weddingCard } from "../../Utils/mockData";
-
 const WeddingCard = () => {
   return (
     <div className="my-8 grid w-full grid-cols-1 gap-10 px-4 md:grid-cols-2 md:gap-8 lg:grid-cols-4 lg:place-items-center">
       {weddingCard.map((d, index) => (
-        <div key={index} className="flex flex-col items-center justify-center">
+        <motion.div 
+        initial={{ y: -70, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5 * index, duration: 0.8 * index }}
+        key={index} className="flex flex-col items-center justify-center">
           <div
             className="t card-compact card  mb-6   w-[300px] overflow-hidden
            bg-base-100 shadow-xl md:mb-0"
@@ -35,7 +39,7 @@ const WeddingCard = () => {
               <p>{d.des}</p>
             </div>
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );

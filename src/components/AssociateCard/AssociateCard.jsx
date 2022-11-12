@@ -1,6 +1,6 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { associate } from "../../Utils/mockData";
-
 const AssociateCard = () => {
   return (
     <div
@@ -8,7 +8,12 @@ const AssociateCard = () => {
      md:gap-4 xl:grid-cols-5 "
     >
       {associate.map((data, index) => (
-        <div key={index} className="flex flex-col items-center justify-center">
+        <motion.div 
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5 * index, duration: 0.8 * index }}
+        
+        key={index} className="flex flex-col items-center justify-center">
           <div className="rounded-3xl bg-[#2C2C2C] shadow-2xl shadow-[#2c2c2c] md:w-[300px]">
             <img src={data.img} alt="" />
             <div className=" flex items-center justify-between py-3 pl-3 pr-2   ">
@@ -29,7 +34,7 @@ const AssociateCard = () => {
               )}
             </div>
           </div>
-        </div>
+        </motion.div>
       ))}
     </div>
   );

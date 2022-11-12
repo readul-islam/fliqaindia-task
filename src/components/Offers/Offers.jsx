@@ -1,6 +1,6 @@
+import { motion } from "framer-motion";
 import React from "react";
 import { offers } from "../../Utils/mockData";
-
 const Offers = () => {
   return (
     <section className="blog">
@@ -18,7 +18,10 @@ const Offers = () => {
         </div>
         <div className="my-4 grid  grid-cols-1  gap-8 bg-gradient-to-br from-primary/30 via-primary to-primary/30 py-8  bg-blend-multiply md:grid-cols-2 md:gap-4 lg:grid-cols-4">
           {offers.map((d, index) => (
-            <div
+            <motion.div
+              initial={{ x: 70, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              transition={{ delay: 0.5 * index, duration: 0.8 * index }}
               key={index}
               className="flex flex-col items-center  justify-center"
             >
@@ -40,7 +43,7 @@ const Offers = () => {
                   Book Now
                 </button>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
