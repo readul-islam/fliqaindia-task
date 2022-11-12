@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../Common/Navbar'
-import Discover from '../../components/Discover'
 import Header from '../../components/Header'
+import RealWedding from '../../components/RealWedding/RealWeadding'
 
 const Home = () => {
   return (
@@ -10,7 +10,13 @@ const Home = () => {
     <Header/>
     {/* <Associate/>
     <Services/> */}
-    <Discover/>
+    {/* <Discover/> */}
+
+
+
+
+    {/* <Blog/> */}
+    <RealWedding/>
     </>
   )
 }
