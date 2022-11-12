@@ -95,7 +95,7 @@ export const associate = [
   },
 ];
 
- export const treading = [
+export const treading = [
   {
     id: 1,
     title: "Creative Industries are on the verge of depletion due to COVID-19",
@@ -122,18 +122,37 @@ export const associate = [
   },
 ];
 
-
-
-
-
-
 export const success = [
-  {id: 5, img:'https://i.ibb.co/cX8BfdK/image-removebg-preview-2022-07-23-T230415-1.png'},
-  {id: 4, img:'https://i.ibb.co/FJXc84R/image-removebg-preview-2022-07-23-T230432.png'},
-  {id: 3, img:'https://i.ibb.co/yXFFcHR/image-removebg-preview-2022-07-23-T230437.png'},
-  {id: 2, img:'https://i.ibb.co/LN0xYRP/image-184.png'},
-  {id: 1, img:'https://i.ibb.co/nrWx2bV/image-removebg-preview-2022-07-23-T230425.png'},
+  {
+    id: 5,
+    img: "https://i.ibb.co/cX8BfdK/image-removebg-preview-2022-07-23-T230415-1.png",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/FJXc84R/image-removebg-preview-2022-07-23-T230432.png",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/yXFFcHR/image-removebg-preview-2022-07-23-T230437.png",
+  },
+  { id: 2, img: "https://i.ibb.co/LN0xYRP/image-184.png" },
+  {
+    id: 1,
+    img: "https://i.ibb.co/nrWx2bV/image-removebg-preview-2022-07-23-T230425.png",
+  },
+];
 
-  
-  
-]
+export const rating = [
+  { id: 1, img: "https://i.ibb.co/NZc8Wfd/image-149.png" },
+  { id: 1, img: "https://i.ibb.co/28QZc9v/image-152.png" },
+  { id: 1, img: "https://i.ibb.co/PQn8tfZ/image-151.png" },
+  {
+    id: 1,
+    img: "https://i.ibb.co/Lvd7JYz/image-removebg-preview-2022-07-23-T185243-1.png",
+  },
+  {
+    id: 1,
+    img: "https://i.ibb.co/vxJByhC/image-removebg-preview-2022-07-23-T185023-1.png",
+  },
+  { id: 1, img: "https://i.ibb.co/VvvL4Yn/image-154.png" },
+];

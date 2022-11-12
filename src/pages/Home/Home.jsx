@@ -1,28 +1,28 @@
-import React from 'react'
-import Navbar from '../../Common/Navbar'
-import Header from '../../components/Header'
-import PhotoGraphyBanner from '../../components/PhotoGraphyBanner/PhotoGraphyBanner'
-import RealWedding from '../../components/RealWedding/RealWeadding'
-import Success from '../../components/Success/Success'
+
+import React from "react";
+import Navbar from "../../Common/Navbar";
+import Header from "../../components/Header";
+import Offers from "../../components/Offers/Offers";
 
 const Home = () => {
   return (
     <>
-    <Navbar/>
-    <Header/>
-    {/* <Associate/>
+      <Navbar />
+      <Header />
+      {/* <Associate/>
     <Services/> */}
-    {/* <Discover/> */}
+      {/* <Discover/> */}
 
-
-
-
-    {/* <Blog/> */}
-    <RealWedding/>
+      {/* <Blog/> */}
+      {/* <RealWedding/>
     <Success/>
-    <PhotoGraphyBanner/>
-    </>
-  )
-}
+    <PhotoGraphyBanner/> */}
+      {/* <AwardsSection /> */}
+      {/* <Footer/> */}
+      <Offers/>
 
-export default Home
+    </>
+  );
+};
+
+export default Home;
