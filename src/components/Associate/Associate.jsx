@@ -8,30 +8,27 @@ import AssociateCard from "../AssociateCard/AssociateCard";
 
 const Associate = () => {
   return (
-    <section className=" Associate   bg-primary">
-     <div className="mx-8 py-8">
-     <div className=" md:text-left text-center flex items-center justify-between flex-col md:flex-row gap-2">
-       <div>
-       <h2
-          className="text-2xl md:text-3xl
-           lg:text-4xl text-secondary font-bold font-serif  "
-        >
-       Find Trusted Associate
-        </h2>
-        <small className="text-gray-600 md:text-lg  ">
-        Find the best Fliqa Associate for your special day.
-        </small>
-       </div>
-       <p className="text-secondary">{'See more >>'}</p>
+    <section className=" Associate my-24   bg-primary">
+      <div className="mx-8 py-8">
+        <div className=" flex flex-col items-center justify-between gap-2 text-center md:flex-row md:text-left">
+          <div>
+            <h2
+              className="font-serif text-2xl
+           font-bold text-secondary md:text-3xl lg:text-4xl  "
+            >
+              Find Trusted Associate
+            </h2>
+            <small className="text-gray-600 md:text-lg  ">
+              Find the best Fliqa Associate for your special day.
+            </small>
+          </div>
+          <p className="text-secondary">{"See more >>"}</p>
+        </div>
+
+        <div className="card py-4">
+          <AssociateCard />
+        </div>
       </div>
-
-
-<div className="card py-4">
-<AssociateCard/>
-</div>
-
-     </div>
-    
     </section>
   );
 };

@@ -1,33 +1,7 @@
 import React from "react";
+import { offers } from "../../Utils/mockData";
 
 const Offers = () => {
-  const data = [
-    {
-      di: 1,
-      title: "Wedding Packages",
-      img: "https://i.ibb.co/LrtFvBC/image-77-2.png",
-      discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
-    },
-    {
-      di: 2,
-      title: "Website Design",
-      img: "https://i.ibb.co/SdL9DK0/image-77-1.png",
-      discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
-    },
-    {
-      di: 3,
-      title: "Beach Photography",
-      img: "https://i.ibb.co/1zvSZG6/image-77.png",
-      discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
-    },
-    {
-      di: 4,
-
-      title: "Wedding Packages",
-      img: "https://i.ibb.co/1zvSZG6/image-77.png",
-      discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
-    },
-  ];
   return (
     <section className="blog">
       <div className=" ">
@@ -43,8 +17,11 @@ const Offers = () => {
           </small>
         </div>
         <div className="my-4 grid  grid-cols-1  gap-8 bg-gradient-to-br from-primary/30 via-primary to-primary/30 py-8  bg-blend-multiply md:grid-cols-2 md:gap-4 lg:grid-cols-4">
-          {data.map((d) => (
-            <div className="flex flex-col items-center  justify-center">
+          {offers.map((d, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center  justify-center"
+            >
               <div className="card  bg-base-100 shadow-xl">
                 <figure>
                   <img src={d.img} alt="Shoes" />

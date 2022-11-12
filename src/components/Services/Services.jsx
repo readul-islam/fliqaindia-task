@@ -12,11 +12,11 @@ import { services } from "../../Utils/mockData";
 
 const Services = () => {
   return (
-    <section className="mx-8 services">
-      <div className=" md:text-left text-center">
+    <section className="services mx-8">
+      <div className=" text-center md:text-left">
         <h2
-          className="text-2xl md:text-3xl
-           lg:text-4xl text-secondary font-bold font-serif  "
+          className="font-serif text-2xl
+           font-bold text-secondary md:text-3xl lg:text-4xl  "
         >
           Our Featured Services
         </h2>
@@ -25,7 +25,7 @@ const Services = () => {
         </small>
       </div>
       <motion.div
-        className="mx-4 md:mx-0 py-4 "
+        className="mx-4 py-4 md:mx-0 "
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.5, duration: 0.8 }}
@@ -59,20 +59,20 @@ const Services = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper"
         >
-          {services.map((data) => (
-            <div key={data.id}>
+          {services.map((data, index) => (
+            <div key={index}>
               <SwiperSlide>
-                <div className=" rounded-xl  border-2  shadow-xl my-10 pb-8 ">
+                <div className=" my-10  rounded-xl  border-2 pb-8 shadow-xl ">
                   <img src={data.img} className="w-full bg-cover" alt="Shoes" />
 
-                  <div className="flex flex-col justify-center text-center items-center gap-10 p-1">
+                  <div className="flex flex-col items-center justify-center gap-10 p-1 text-center">
                     <div>
-                      <h3 className="xl:text-xl md:text-lg text-base  font-semibold text-black">
+                      <h3 className="text-base font-semibold text-black  md:text-lg xl:text-xl">
                         {data.title}
                       </h3>
-                      <hr className="border-2 my-1" />
-                      <small className="text-gray-400  text-sm xl:text-md ">
-                        <span className="text-secondary font-semibold">
+                      <hr className="my-1 border-2" />
+                      <small className="xl:text-md  text-sm text-gray-400 ">
+                        <span className="font-semibold text-secondary">
                           Starting a{" "}
                         </span>
                         ( {data.salary + " " + data.time.slice(0, 12)})

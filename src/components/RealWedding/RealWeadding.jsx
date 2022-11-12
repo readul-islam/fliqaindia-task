@@ -3,13 +3,13 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import WeddingCard from "../WeddingCard/WeddingCard";
 const RealWedding = () => {
   return (
-    <>
-      <section className="RealWedding bg-primary w-full">
-        <div className="md:mx-8 py-4 ">
-          <div className=" md:text-left text-center">
+    <section className="RealWedding my-24">
+      <div className=" w-full bg-primary">
+        <div className="py-4 md:mx-8 ">
+          <div className=" text-center md:text-left">
             <h2
-              className="text-2xl md:text-3xl
-           lg:text-4xl text-secondary font-bold font-serif  "
+              className="font-serif text-2xl
+           font-bold text-secondary md:text-3xl lg:text-4xl  "
             >
               Real Wedding
             </h2>
@@ -21,14 +21,14 @@ const RealWedding = () => {
             <WeddingCard />
           </div>
         </div>
-      </section>
+      </div>
 
-      <button className="text-black flex items-center text-lg gap-4 mt-10 mx-auto bg-primary py-2 px-4 shadow-xl text-center">
+      <button className="mx-auto mt-10 flex items-center gap-4 bg-primary py-2 px-4 text-center text-lg text-black shadow-xl">
         View more Wedding <AiOutlineArrowRight />
       </button>
 
-      <div class=" h-[2px] w-[80vw] mx-auto bg-gray-400 my-10"></div>
-    </>
+      <div className=" mx-auto my-10 h-[2px] w-[80vw] bg-gray-400"></div>
+    </section>
   );
 };
 

@@ -124,37 +124,37 @@ export const treading = [
 
 export const success = [
   {
-    id: 5,
+    id: 1,
     img: "https://i.ibb.co/cX8BfdK/image-removebg-preview-2022-07-23-T230415-1.png",
   },
   {
-    id: 4,
+    id: 2,
     img: "https://i.ibb.co/FJXc84R/image-removebg-preview-2022-07-23-T230432.png",
   },
   {
     id: 3,
     img: "https://i.ibb.co/yXFFcHR/image-removebg-preview-2022-07-23-T230437.png",
   },
-  { id: 2, img: "https://i.ibb.co/LN0xYRP/image-184.png" },
+  { id: 4, img: "https://i.ibb.co/LN0xYRP/image-184.png" },
   {
-    id: 1,
+    id: 5,
     img: "https://i.ibb.co/nrWx2bV/image-removebg-preview-2022-07-23-T230425.png",
   },
 ];
 
 export const rating = [
   { id: 1, img: "https://i.ibb.co/NZc8Wfd/image-149.png" },
-  { id: 1, img: "https://i.ibb.co/28QZc9v/image-152.png" },
-  { id: 1, img: "https://i.ibb.co/PQn8tfZ/image-151.png" },
+  { id: 2, img: "https://i.ibb.co/28QZc9v/image-152.png" },
+  { id: 3, img: "https://i.ibb.co/PQn8tfZ/image-151.png" },
   {
-    id: 1,
+    id: 4,
     img: "https://i.ibb.co/Lvd7JYz/image-removebg-preview-2022-07-23-T185243-1.png",
   },
   {
-    id: 1,
+    id: 5,
     img: "https://i.ibb.co/vxJByhC/image-removebg-preview-2022-07-23-T185023-1.png",
   },
-  { id: 1, img: "https://i.ibb.co/VvvL4Yn/image-154.png" },
+  { id: 6, img: "https://i.ibb.co/VvvL4Yn/image-154.png" },
 ];
 
 export const testimonials = [
@@ -216,5 +216,34 @@ export const weddingCard = [
     title: "Danielle & Ronnie",
     des: "38 photos. Kittery,Polland",
     img: "https://i.ibb.co/qntBX63/image-59-2.png",
+  },
+];
+
+
+export  const offers = [
+  {
+    di: 1,
+    title: "Wedding Packages",
+    img: "https://i.ibb.co/LrtFvBC/image-77-2.png",
+    discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
+  },
+  {
+    di: 2,
+    title: "Website Design",
+    img: "https://i.ibb.co/SdL9DK0/image-77-1.png",
+    discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
+  },
+  {
+    di: 3,
+    title: "Beach Photography",
+    img: "https://i.ibb.co/1zvSZG6/image-77.png",
+    discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
+  },
+  {
+    di: 4,
+
+    title: "Wedding Packages",
+    img: "https://i.ibb.co/1zvSZG6/image-77.png",
+    discount: "https://i.ibb.co/RDScksR/Images50-removebg-preview-2.png",
   },
 ];

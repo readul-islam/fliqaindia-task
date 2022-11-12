@@ -85,8 +85,8 @@ const Footer = () => {
         </div>
         <div className="absolute -bottom-12 -left-12 hidden h-32 w-32 rounded-full bg-white md:block"></div>
         <div className="absolute -top-20 -right-4 hidden h-48 w-52 rounded-full bg-white md:block"></div>
-        {/* <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
-        <span class="block bg-black text-center text-sm text-gray-500  ">
+        {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
+        <span className="block bg-black text-center text-sm text-gray-500  ">
           © 2022 2019-2021, FliqaIndia Pvt Ltd. <br /> -ALL RIGHT RESERVED
           POWERED BY FLIQAINDIA PVT. LTD. <br /> VERSION 5.1.5
         </span>

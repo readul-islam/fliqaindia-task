@@ -2,8 +2,8 @@ import React from "react";
 
 const PhotoGraphyBanner = () => {
   return (
-    <div
-      className="hero"
+    <section
+      className="photoGraphyBanner hero my-24"
       style={{
         backgroundImage: `url("https://i.ibb.co/Rcw1KBH/Rectangle-217.png")`,
       }}
@@ -23,7 +23,7 @@ const PhotoGraphyBanner = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

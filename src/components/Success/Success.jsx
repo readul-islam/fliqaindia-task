@@ -3,12 +3,12 @@ import { success } from "../../Utils/mockData";
 
 const Success = () => {
   return (
-    <section className="blog bg-primary">
-      <div className="md:mx-8 mx-1 py-4 ">
+    <section className="Success my-24 bg-primary">
+      <div className="mx-1 py-4 md:mx-8 ">
         <div className=" text-center">
           <h2
-            className="text-2xl md:text-3xl
-           lg:text-4xl text-secondary font-bold font-serif  "
+            className="font-serif text-2xl
+           font-bold text-secondary md:text-3xl lg:text-4xl  "
           >
             Our success
           </h2>
@@ -16,13 +16,16 @@ const Success = () => {
             Journey of our success
           </small>
         </div>
-        <div className="grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1 w-full my-8 gap-10 md:gap-8 lg:place-items-center ">
-          {success.map((d) => (
-            <div className="flex flex-col justify-center items-center gap-y-3">
-              <div className="bg-white shadow-2xl  w-32 h-32 xl:w-52 xl:h-52 flex flex-col justify-center items-center rounded-full ">
+        <div className="my-8 grid w-full grid-cols-1 gap-10 md:grid-cols-2 md:gap-8 lg:grid-cols-5 lg:place-items-center ">
+          {success.map((d, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center justify-center gap-y-3"
+            >
+              <div className="flex h-32  w-32 flex-col items-center justify-center rounded-full bg-white shadow-2xl xl:h-52 xl:w-52 ">
                 <img className="w-fit" src={d.img} alt="" />
               </div>
-              <p className="text-black text-center text-sm xl:px-10">
+              <p className="text-center text-sm text-black xl:px-10">
                 Back in 2019, FliqaIndia recognize as a startup with DPIT in
                 Startup India.
               </p>

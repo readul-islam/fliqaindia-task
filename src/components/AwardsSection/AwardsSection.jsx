@@ -10,13 +10,14 @@ const AwardsSection = () => {
           <img src="https://i.ibb.co/CPvqJLP/Rectangle-209.png" alt="" />
         </div>
         <div className="grid gap-4 md:grid-cols-2">
-          {rating.map((data) => (
-            <>
-              <div className="flex  flex-col items-center justify-between rounded-2xl  bg-white py-2 px-4 text-black shadow-lg lg:flex-row">
-                <img className="h-16" src={data.img} alt="" />
-                <p>5/10</p>
-              </div>
-            </>
+          {rating.map((data, index) => (
+            <div
+              key={index}
+              className="flex  flex-col items-center justify-between rounded-2xl  bg-white py-2 px-4 text-black shadow-lg lg:flex-row"
+            >
+              <img className="h-16" src={data.img} alt="" />
+              <p>5/10</p>
+            </div>
           ))}
         </div>
       </div>
